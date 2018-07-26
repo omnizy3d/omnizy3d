@@ -9,7 +9,7 @@ Author URI: http://bootstrapthemes.co
    ========================================================================== */
 html,
 body {
-    background-color: #503392;
+    background-color: #efdf0c;
     font-size: 1rem;
     color: #462fb3;
     width: 100%;
@@ -273,7 +273,7 @@ ul{
     margin-bottom: 4rem;
 }
 .overlay {
-    background-color: rgba(238,224,93, 0.8);
+    background-color: rgba(236, 221, 15, 0);
     width: 100%;
     height: 750px;
 }
@@ -356,9 +356,9 @@ Button
 .btn-primary:focus,
 .btn-primary.disabled,
 .btn-primary.disabled:hover {
-    color: #f5f5f5;
-    background-color: #000;
-    border-color: #000000;
+    color: #f1dc1c;
+    background-color: #503392;
+    border-color: #503392;
 }
 
 
@@ -375,14 +375,14 @@ Button
     font-size: 20px;
     border-radius: 0px;
     margin-top: 20px;
-    background-color: #65a7e0;
+    background-color: #353392bf;
     transition: .5s; 
     border:0px;
 
 }
 .btn:hover {
-    background-color:#337ab7;
-    color: #fff;
+    background-color:#503392;
+    color: #ecd714;
     text-decoration: none;
 }
 
@@ -400,8 +400,8 @@ Button
 }
 
 .btn-md{
-    border:1px solid #fff;
-    color:#fff;
+    border:1px solid #337ab700;
+    color:#f5f5f5;
 }
 
 
@@ -526,9 +526,9 @@ input::-ms-input-placeholder {
     left: 0; 
     right: 0; 
     z-index: 300;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-    background-color:rgba(34, 61, 97, 0.64);
+    box-shadow: 0 6px 12px rgba(84, 71, 71, 0.04);
+    -webkit-box-shadow: 0 6px 12px rgba(228, 13, 13, 0);
+    background-color:#0000000f;
     -webkit-transition:all .3s;
     -moz-transition:all .3s;
     transition:all .3s;
@@ -539,11 +539,11 @@ input::-ms-input-placeholder {
 
 .main_menu_bg{
     margin-top: 0px;
-    background-color: transparent;
+    background-color: #0000002b;
 }
 .main_menu_bg .navbar-default {
-    background-color: transparent; 
-    border-color: transparent; 
+    background-color: #f5f5f500; 
+    border-color: #f5f5f500; 
     transition: all .6s;
     margin: 15px auto;
 }
@@ -587,11 +587,11 @@ input::-ms-input-placeholder {
 }
 
 .home .main_home h1{
-    color: #fff;
+    color: #efd80a;
     padding-bottom: 25px;
 }
 .home .main_home p.subtitle{
-    color: #fff;
+    color: #efd80a;
     padding-bottom: 25px;
     font-family: 'latolight';
     font-size:2.0625rem;
@@ -655,7 +655,7 @@ input::-ms-input-placeholder {
 }
 .head_title h2{
     font-size:3.125rem;
-    color:#ec5e6b;
+    color:#000;
 }
 .head_title p{
     font-size:1rem;
@@ -749,12 +749,12 @@ input::-ms-input-placeholder {
     min-width:150px;
     height:35px;
     padding: .2rem;
-    border:1px solid #333;
+    border:1px solid #000;
 }
 .main_mix_menu ul li.btn-primary {
-    background-color: rgba(241, 235, 23, 0.05);
+    background-color: #a9444200;
     transition: .5s;
-    color: #333;
+    color: #000;
 }
 .main_mix_menu ul li.active {
     background: #503392;
@@ -766,7 +766,7 @@ input::-ms-input-placeholder {
 .single_mixi_portfolio{
     position:relative;
     float: left;
-    border: 3px solid #fff;
+    border: 3px solid #ec1e1e00;
     width:100%;
 }
 .single_mixi_portfolio img{
@@ -783,7 +783,7 @@ input::-ms-input-placeholder {
     height:100%;
     transition:.5s;
     opacity:0;
-	background: #dcbf4403;
+	background: rgba(66, 61, 61, 0.55);
 }
 .mixi_portfolio_overlay .overflow_hover_text{
     position: absolute;
@@ -791,23 +791,23 @@ input::-ms-input-placeholder {
     left: 10%;
     width: 80%;
     height: 80%;
-    border: 20px solid #f1d315;
+    border: 20px solid #ecc618;
     padding: 90px 0px 0px 0px;
 }
 .mixi_portfolio_overlay .overflow_hover_text i{
-    color:#333;
+    color:#f5f5f5;
     font-size: 0.875rem;
     width:35px;
     height: 35px;
-    border: 1px solid #e6ce1c;
+    border: 1px solid #f5f5f5;
     display: inline-block;
     line-height: 35px;
     text-align: center;
 
 }
 .mixi_portfolio_overlay .overflow_hover_text i:hover{
-    color:#333;
-    background: #503392;
+    color:#f5f5f5;
+    background: #e23530ed;
 
 }
 
